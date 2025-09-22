@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the safety integrity level required for PLd performance?",
+      "difficulty": "hard",
+      "expected_keywords": ["PLd", "SIL", "safety integrity level", "performance level", "ISO 13849"],
+      "category": "functional_safety"
+    },
+    {
+      "id": 2,
+      "question": "What are the basic safety requirements for industrial robots according to ISO 10218?",
+      "difficulty": "easy",
+      "expected_keywords": ["ISO 10218", "robot safety", "safety requirements", "emergency stop", "protective measures"],
+      "category": "robot_safety"
+    },
+    {
+      "id": 3,
+      "question": "How should lockout/tagout procedures be implemented for machinery maintenance?",
+      "difficulty": "medium",
+      "expected_keywords": ["lockout", "tagout", "LOTO", "maintenance", "energy isolation", "procedures"],
+      "category": "maintenance_safety"
+    },
+    {
+      "id": 4,
+      "question": "What is the minimum safety distance for light curtains in industrial applications?",
+      "difficulty": "hard",
+      "expected_keywords": ["safety distance", "light curtain", "minimum distance", "safety light barrier", "calculation"],
+      "category": "protective_devices"
+    },
+    {
+      "id": 5,
+      "question": "What types of guards are recommended for rotating machinery?",
+      "difficulty": "easy",
+      "expected_keywords": ["guards", "rotating machinery", "fixed guards", "interlocking guards", "protection"],
+      "category": "machine_guarding"
+    },
+    {
+      "id": 6,
+      "question": "How do you calculate the Safety Integrity Level for a safety function?",
+      "difficulty": "hard",
+      "expected_keywords": ["SIL calculation", "probability of failure", "PFH", "architecture", "diagnostic coverage"],
+      "category": "functional_safety"
+    },
+    {
+      "id": 7,
+      "question": "What are the requirements for emergency stop devices in industrial equipment?",
+      "difficulty": "medium",
+      "expected_keywords": ["emergency stop", "e-stop", "requirements", "IEC 60204", "design", "red button"],
+      "category": "emergency_systems"
+    },
+    {
+      "id": 8,
+      "question": "What is the difference between Type A and Type B safety standards?",
+      "difficulty": "medium",
+      "expected_keywords": ["Type A", "Type B", "safety standards", "basic", "generic", "product specific"],
+      "category": "standards"
+    }
+  ],
+  "metadata": {
+    "total_questions": 8,
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 3,
+      "hard": 3
+    },
+    "categories": [
+      "functional_safety",
+      "robot_safety", 
+      "maintenance_safety",
+      "protective_devices",
+      "machine_guarding",
+      "emergency_systems",
+      "standards"
+    ],
+    "instructions": "Test both baseline and reranked modes. Compare retrieval quality and answer accuracy."
+  }
+}

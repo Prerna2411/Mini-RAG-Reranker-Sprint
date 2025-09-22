@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+env/
+.venv/
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data / model files
+*.pkl
+*.pt
+*.bin
+*.ckpt
+*.zip
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+
+# Python environment settings
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Test / output directories
+__pycache__/
+outputs/
