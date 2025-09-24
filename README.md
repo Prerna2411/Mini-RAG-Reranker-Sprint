@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a small **question-answering (Q&A) system** over a tiny document set focused on industrial & machine safety. The project implements a **basic similarity search** first and then improves the results with a **reranker**. The system is designed to provide short, extractive answers with citations to the source documents.
+This repository contains a small **question-answering (Q&A) system*** over a tiny document set focused on industrial & machine safety. The project implements a **basic similarity search** first and then improves the results with a **reranker**. The system is designed to provide short, extractive answers with citations to the source documents.
 
 ---
 
